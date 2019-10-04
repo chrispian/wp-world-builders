@@ -17,6 +17,8 @@ class ContentRegistrar extends service {
 
 	protected $post_types = [
 		PostType\Stories::class,
+		PostType\Characters::class,
+		PostType\Places::class,
 	];
 
 	protected $taxonomies = [
