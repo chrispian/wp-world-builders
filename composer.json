@@ -1,0 +1,10 @@
+{
+  "autoload": {
+    "psr-4": {
+      "ChrispianHBurks\\WorldBuilder\\":"src/"
+    }
+  },
+  "require": {
+    "webdevstudios/oops-wp": "^0.2.1"
+  }
+}
