@@ -1,6 +1,6 @@
 <?php
 /**
- * Short Description Goes Here
+ * Genre Taxonomy
  *
  * @author Chrispian H. Burks <chrispian.burks@webvdevstudios.com>
  * @since  2019-10-04
@@ -10,6 +10,13 @@ namespace ChrispianHBurks\WorldBuilder\Content\Taxonomy;
 
 use WebDevStudios\OopsWP\Structure\Content\Taxonomy;
 
+/**
+ * Class Genre
+ *
+ * @author  Chrispian H. Burks <chrispian.burks@webvdevstudios.com>
+ * @package ChrispianHBurks\WorldBuilder\Content\Taxonomy
+ * @since   2019-10-04
+ */
 class Genre extends Taxonomy {
 
 	protected $slug = 'genre';
@@ -18,6 +25,11 @@ class Genre extends Taxonomy {
 		'stories',
 	];
 
+	/**
+	 * @author Chrispian H. Burks <chrispian.burks@webvdevstudios.com>
+	 * @since  2019-10-04
+	 * @return array
+	 */
 	protected function get_args(): array {
 		return [
 			'hierarchical'        => true,
@@ -35,7 +47,11 @@ class Genre extends Taxonomy {
 		];
 	}
 
-
+	/**
+	 * @author Chrispian H. Burks <chrispian.burks@webvdevstudios.com>
+	 * @since  2019-10-04
+	 * @return array
+	 */
 	protected function get_labels() : array {
 		// TODO: Implement get_labels() method.
 		return [

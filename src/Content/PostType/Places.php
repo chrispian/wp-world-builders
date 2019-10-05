@@ -1,6 +1,6 @@
 <?php
 /**
- * Short Description Goes Here
+ * Places Custom Post Type
  *
  * @author  Chrispian H. Burks <chrispian.burks@webvdevstudios.com>
  * @package ChrispianHBurks\WorldBuilder\Content
@@ -11,10 +11,26 @@ namespace ChrispianHBurks\WorldBuilder\Content\PostType;
 
 use WebDevStudios\OopsWP\Structure\Content\PostType;
 
+/**
+ * Class Places
+ *
+ * @author  Chrispian H. Burks <chrispian.burks@webvdevstudios.com>
+ * @package ChrispianHBurks\WorldBuilder\Content\PostType
+ * @since   2019-10-04
+ */
 class Places extends PostType {
 
+	/**
+	 * @var string
+	 * @since 2019-10-04
+	 */
 	protected $slug = 'places';
 
+	/**
+	 * @author Chrispian H. Burks <chrispian.burks@webvdevstudios.com>
+	 * @since  2019-10-04
+	 * @return array
+	 */
 	protected function get_args(): array {
 		return [
 			'public'                => true,
@@ -28,6 +44,11 @@ class Places extends PostType {
 		];
 	}
 
+	/**
+	 * @author Chrispian H. Burks <chrispian.burks@webvdevstudios.com>
+	 * @since  2019-10-04
+	 * @return array
+	 */
 	protected function get_labels(): array {
 		return [
 			'name'               => _x( 'Places', 'post type general name', 'wp-world-builder' ),

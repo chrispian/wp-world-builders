@@ -1,6 +1,5 @@
 <?php
 /**
- *
  *  WP World Builders Plugin
  *
  * @link              http://www.chrispian.com

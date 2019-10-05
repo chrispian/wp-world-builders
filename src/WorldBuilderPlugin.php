@@ -1,6 +1,6 @@
 <?php
 /**
- * Short Description Goes Here
+ * Main Plugin File
  *
  * @author Chrispian H. Burks <chrispian.burks@webvdevstudios.com>
  * @since  2019-10-04
@@ -12,11 +12,11 @@ use WebDevStudios\OopsWP\Structure\Plugin\Plugin;
 use ChrispianHBurks\WorldBuilder\Content\ContentRegistrar;
 
 /**
- * Class Plugin
+ * Class WorldBuilderPlugin
  *
- * @author Chrispian H. Burks <chrispian.burks@webdevstudios.com>
- * @since 1.0.0
- * @package ChrispianHBurks\WorldBuilderPlugin
+ * @author  Chrispian H. Burks <chrispian.burks@webvdevstudios.com>
+ * @package ChrispianHBurks\WorldBuilder
+ * @since   2019-10-04
  */
 class WorldBuilderPlugin extends Plugin {
 
