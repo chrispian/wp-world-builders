@@ -24,9 +24,11 @@ class ContentRegistrar extends service {
 	 * @since 2019-10-04
 	 */
 	protected $post_types = [
-		PostType\Stories::class,
 		PostType\Characters::class,
+		PostType\Groups::class,
 		PostType\Places::class,
+		PostType\Stories::class,
+		PostType\Worlds::class,
 	];
 
 
@@ -36,6 +38,7 @@ class ContentRegistrar extends service {
 	 */
 	protected $taxonomies = [
 		Taxonomy\Genre::class,
+		Taxonomy\System::class,
 	];
 
 	/**
